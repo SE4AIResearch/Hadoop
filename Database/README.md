@@ -66,8 +66,6 @@ CREATE TABLE IF NOT EXISTS Pulls (
 - **merged_at**: The timestamp when the pull request was merged, if applicable.
 - **status**: The current status of the pull request (open, closed, merged).
 
-**If the 'merged' field in pull is True, the pull request has been merged.**
-
 ## Issues
 
 ```sqlite
